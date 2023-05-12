@@ -1,0 +1,90 @@
+*{
+    background: #c0b2b4;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    background: #0A38;
+    border: none;
+    color: #0A3871;
+    margin-top: 120px;
+    text-transform: lowercase;
+}
+::placeholder {color: #0A3871}
+  .text-area:focus {
+    outline: none;
+  }
+
+.mensaje{
+    background: #0A38;
+    background-image: url("munheco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left:20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    background: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    background: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #c0b2b4;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar{
+    background: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 190px;
+    margin-top: 790px;
+    position: absolute;
+    width: 336px;
+    background: rgba(119, 170, 0, 0.533);
+}
+
+.informacion{
+    color: maroon;
+    font-size:25px;
+}
