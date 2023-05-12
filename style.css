@@ -32,7 +32,7 @@ main{
 
 .mensaje{
     background: #0A38;
-    background-image: url("munheco.png");
+    background-image: url("./imagenes/munheco.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
